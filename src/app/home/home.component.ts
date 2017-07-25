@@ -10,12 +10,12 @@ import { trigger,state,style,transition,animate,keyframes } from '@angular/anima
     trigger('myawAnime',[
        state('b', style({
             transform: 'translateY(20px)',
-             opacity:'0.5',
+             opacity:'0.6',
             
         })),
         state('t', style({
             transform: 'translateY(-20px)',
-             opacity:'0.5',
+             opacity:'0.6',
         })),
        
         transition('t <=> b', animate('4500ms ease-in-out'))
