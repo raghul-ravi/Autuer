@@ -18,7 +18,7 @@ import { trigger,state,style,transition,animate,keyframes } from '@angular/anima
              opacity:'0.6',
         })),
        
-        transition('t <=> b', animate('4500ms ease-in-out'))
+        transition('t <=> b', animate('2500ms ease-in-out'))
     ])
   ]
 })
@@ -34,9 +34,8 @@ export class HomeComponent implements AfterViewInit {
   }
   toggle()
   {
-      this.state = (this.state === 'b' ? 't' : 'b');
-      console.log(this.state);
-      setTimeout(()=>this.toggle(),3000)
+      this.state = (this.state === 'b' ? 't' : 'b');     
+      setTimeout(()=>this.toggle(),2000)
   }
 
  
