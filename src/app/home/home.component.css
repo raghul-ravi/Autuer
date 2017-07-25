@@ -1,0 +1,11 @@
+.jumbotron{
+    height: 85vh;
+      background-image: url('./../../assets/43747c64.png') !important;
+    background-repeat: repeat;
+    margin-bottom: 0;
+   
+}
+.img-opaq
+{
+  opacity: 0.5;
+}
