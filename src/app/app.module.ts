@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ScrolldownComponent } from './scrolldown/scrolldown.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MasonGalleryComponent } from './mason-gallery/mason-gallery.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    ScrolldownComponent
+    ScrolldownComponent,
+    MasonGalleryComponent
   ],
   imports: [
     BrowserModule,

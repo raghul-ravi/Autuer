@@ -1,9 +1,11 @@
 .jumbotron{
-    height: 85vh;
+    height: 95vh;
       background-image: url('./../../assets/43747c64.png') !important;
     background-repeat: repeat;
     margin-bottom: 0;
       align-content: center;
+      margin-top:1px;
+      padding-top: 50px;
    
 }
 .img-opaq
@@ -27,3 +29,7 @@
   width: 60vh;
 }
 
+.carousel
+{
+  margin-top:20px;
+}
