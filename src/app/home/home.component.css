@@ -3,9 +3,27 @@
       background-image: url('./../../assets/43747c64.png') !important;
     background-repeat: repeat;
     margin-bottom: 0;
+      align-content: center;
    
 }
 .img-opaq
 {
-  opacity: 0.5;
+  opacity: 0.8;
 }
+.txt-ctr
+{
+  text-align: center !important;
+
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto !important;
+    position: absolute;
+}
+
+.img-half
+{
+  height: 50vh;
+  width: 50vh;
+}
+
